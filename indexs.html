@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<script src="scripts.js"></script>
+<body>
+
+
+    <div class="container">
+        <h1>Decentralized Voting System</h1>
+        <div id="candidates">
+            <div>
+                <label for="candidate">Select Candidate:</label>
+                <br>
+                    <input type="radio" name="par" value="Modi">Modi
+                    <input type="radio" name="par" value="RahulGandhi">Rahul Gandhi
+                    <input type="radio" name="par" value="Kejariwal">Kejriwal
+                    <input type="radio" name="par" value="AmitShah">Amit Shah
+                    <input type="radio" name="par" value="EknathShinde">Eknath Shinde
+            </div>
+            <button id="voteButton" onclick="vote()">Vote</button>
+        </div>
+        <div id="results">
+            <h2>Results</h2>
+            <button id="resultsButton" onclick="getVote()">Get Votes</button>
+            <p id="voteResults"></ul>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
